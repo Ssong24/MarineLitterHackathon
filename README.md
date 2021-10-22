@@ -21,7 +21,7 @@ Since this repo is a simple usage of augmentation based on image processing meth
 1. Clone this and [Augmix](https://github.com/google-research/augmix) repo
 2. `pip install requirements.txt`
 3. Add augmentations.py and augment_and_mix.py from Augmix to 'src' folder
-4. Fix IMAGE_SIZE in augmentations.py, width and height for custom dataset
+4. Fix IMAGE_SIZE in augmentations.py, width and height in AugMixVisualization.py for custom dataset
 5. `python AugMixVisualization.py`
 
 
