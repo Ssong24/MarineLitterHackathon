@@ -11,7 +11,7 @@ models' confidence, but also contributes in improving the robustness of the mode
 This repo is based on [official code](https://github.com/google-research/augmix) and shows how to use in custom dataset and visualize. 
 
 ### SeaAugMix Algorithm Overview
-<p align="center"> <img src='src/SeaAugMix.jpg' align="center" height="230px">
+<p align="left"> <img src='src/SeaAugMix.jpg' align="center" height="300px">
 
 
 ## Requirements
