@@ -1,6 +1,6 @@
 # MarineLitterHackathon
 By using drone, AI, and Bigdata technology, we can manage the marine litter problem more efficiently. Here I present how to use data augmentation for improving the robustness of deep-learning model to prepare the noise from sea environment.
-
+![alt text](src/SeaAugMix.png)
 
 ## AugMix
 
