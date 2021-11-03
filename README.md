@@ -1,14 +1,18 @@
 # MarineLitterHackathon
 By using drone, AI, and Bigdata technology, we can manage the marine litter problem more efficiently. Here I present how to use data augmentation for improving the robustness of deep-learning model to prepare the noise from sea environment.
-![alt text](src/SeaAugMix.png)
+
 
 ## AugMix
 
 [Augmix](https://arxiv.org/pdf/1912.02781.pdf) is a new data processing technique that chooses multiple augmentations randomly with dirichelet distribution,mixes augmented images and enforces consistent embeddings of the augmented images, which results in increased robustness and improved uncertainty calibration. This
 technique achieves much better results as compared to other augmentation techniques. Not only it improves the accuracy of the
 models' confidence, but also contributes in improving the robustness of the models.
-
+  
 This repo is based on [official code](https://github.com/google-research/augmix) and shows how to use in custom dataset and visualize. 
+
+### SeaAugMix Algorithm Overview
+<p align="center"> <img src='src/SeaAugMix.jpg' align="center" height="230px">
+
 
 ## Requirements
 Python>=3.6.x<br>
